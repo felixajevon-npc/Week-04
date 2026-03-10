@@ -1,0 +1,3 @@
+# Penjelasan Pengaruh NIM pada Total Belanja
+
+Tiga digit terakhir NIM saya adalah 111. Nilai ini diubah menjadi tipe data desimal (111.0) dan ditambahkan sebagai elemen ke-6 ke dalam list harga barang. Karena nilai 111.0 ditambahkan ke dalam keranjang belanja, nilai ini secara langsung menambah jumlah kalkulasi `totalAwal` saat fungsi `hitungTotal` melakukan perulangan. Penambahan ini juga akan mempengaruhi evaluasi kondisi percabangan (if-else) yang menentukan persentase diskon yang akan didapatkan di akhir.
